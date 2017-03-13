@@ -1,4 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16D32" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Grouping" representedClassName=".Grouping" syncable="YES" codeGenerationType="category">
+        <attribute name="numPics" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="leftPost" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Post" inverseName="containedBy" inverseEntity="Post" syncable="YES"/>
+        <relationship name="rightPost" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Post" inverseName="newRelationship" inverseEntity="Post" syncable="YES"/>
+    </entity>
+    <entity name="Hashtag" representedClassName=".Hashtag" syncable="YES" codeGenerationType="category">
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="describing" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Post" inverseName="includes" inverseEntity="Post" syncable="YES"/>
+    </entity>
+    <entity name="Post" representedClassName=".Post" syncable="YES" codeGenerationType="category">
+        <attribute name="caption" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numLikes" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="photo" optional="YES" attributeType="Binary" syncable="YES"/>
+        <relationship name="containedBy" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Grouping" inverseName="leftPost" inverseEntity="Grouping" syncable="YES"/>
+        <relationship name="includes" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Hashtag" inverseName="describing" inverseEntity="Hashtag" syncable="YES"/>
+        <relationship name="likedBy" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="User" inverseName="likes" inverseEntity="User" syncable="YES"/>
+        <relationship name="newRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Grouping" inverseName="rightPost" inverseEntity="Grouping" syncable="YES"/>
+        <relationship name="ownedBy" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="owns" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName=".User" syncable="YES" codeGenerationType="category">
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="realname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="followedBy" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="User" inverseName="follows" inverseEntity="User" syncable="YES"/>
+        <relationship name="follows" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="User" inverseName="followedBy" inverseEntity="User" syncable="YES"/>
+        <relationship name="likes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Post" inverseName="likedBy" inverseEntity="Post" syncable="YES"/>
+        <relationship name="owns" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Post" inverseName="ownedBy" inverseEntity="Post" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Grouping" positionX="-47" positionY="-67" width="128" height="103"/>
+        <element name="Hashtag" positionX="133" positionY="89" width="128" height="73"/>
+        <element name="Post" positionX="-63" positionY="110" width="128" height="163"/>
+        <element name="User" positionX="-272" positionY="-63" width="128" height="163"/>
+    </elements>
 </model>

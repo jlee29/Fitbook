@@ -7,15 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8704D8E11E6C7D0C0023615A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8704D8E01E6C7D0C0023615A /* User.swift */; };
+		8704D8E31E6C7D210023615A /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8704D8E21E6C7D210023615A /* Post.swift */; };
+		8704D8E51E6C85130023615A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8704D8E41E6C85130023615A /* ProfileViewController.swift */; };
+		871E68761E6EF20300B532F5 /* BigPictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E68751E6EF20300B532F5 /* BigPictureTableViewCell.swift */; };
+		8784FEF71E6D7CF30065D5C9 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784FEF61E6D7CF30065D5C9 /* TabBarViewController.swift */; };
+		8784FEF91E6D9A570065D5C9 /* artworkCredit in Resources */ = {isa = PBXBuildFile; fileRef = 8784FEF81E6D9A570065D5C9 /* artworkCredit */; };
+		8784FEFD1E6D9AA30065D5C9 /* suit (3).png in Resources */ = {isa = PBXBuildFile; fileRef = 8784FEFC1E6D9AA30065D5C9 /* suit (3).png */; };
+		8784FF001E6D9B450065D5C9 /* hanger-line.png in Resources */ = {isa = PBXBuildFile; fileRef = 8784FEFF1E6D9B450065D5C9 /* hanger-line.png */; };
+		8784FF021E6D9B890065D5C9 /* photo-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 8784FF011E6D9B890065D5C9 /* photo-camera.png */; };
+		8784FF041E6D9DDA0065D5C9 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 8784FF031E6D9DD90065D5C9 /* search.png */; };
+		8784FF061E6D9E240065D5C9 /* search (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 8784FF051E6D9E240065D5C9 /* search (1).png */; };
+		8784FF081E6D9E510065D5C9 /* photo-camera (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 8784FF071E6D9E510065D5C9 /* photo-camera (1).png */; };
+		8784FF0A1E6DA6520065D5C9 /* Hashtag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784FF091E6DA6520065D5C9 /* Hashtag.swift */; };
+		8784FF0E1E6DF9FA0065D5C9 /* FetchedResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784FF0C1E6DF9FA0065D5C9 /* FetchedResultsTableViewController.swift */; };
+		8784FF101E6DFA390065D5C9 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784FF0F1E6DFA390065D5C9 /* FeedTableViewController.swift */; };
+		8784FF121E6E0C310065D5C9 /* UITableViewDataSource+NSFetchedResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784FF111E6E0C310065D5C9 /* UITableViewDataSource+NSFetchedResultsController.swift */; };
+		8784FF141E6E0DCE0065D5C9 /* PictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784FF131E6E0DCE0065D5C9 /* PictureTableViewCell.swift */; };
+		8784FF161E6E21CF0065D5C9 /* Grouping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784FF151E6E21CF0065D5C9 /* Grouping.swift */; };
 		87ECE8701E68530000C76BB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ECE86F1E68530000C76BB8 /* AppDelegate.swift */; };
 		87ECE8721E68530000C76BB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ECE8711E68530000C76BB8 /* ViewController.swift */; };
 		87ECE8751E68530000C76BB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87ECE8731E68530000C76BB8 /* Main.storyboard */; };
 		87ECE8781E68530000C76BB8 /* FitBook2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87ECE8761E68530000C76BB8 /* FitBook2.xcdatamodeld */; };
 		87ECE87A1E68530000C76BB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87ECE8791E68530000C76BB8 /* Assets.xcassets */; };
 		87ECE87D1E68530000C76BB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87ECE87B1E68530000C76BB8 /* LaunchScreen.storyboard */; };
+		87ECE8861E685DA000C76BB8 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ECE8851E685DA000C76BB8 /* UploadViewController.swift */; };
+		87ECE8881E68656400C76BB8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87ECE8871E68656400C76BB8 /* GoogleService-Info.plist */; };
+		87FEC6FA1E748DCF00F41ACD /* SinglePictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FEC6F91E748DCF00F41ACD /* SinglePictureTableViewCell.swift */; };
+		87FEC6FD1E74A42600F41ACD /* UserPictureTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FEC6FC1E74A42600F41ACD /* UserPictureTableViewController.swift */; };
+		87FEC6FF1E74B06500F41ACD /* ExploreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FEC6FE1E74B06500F41ACD /* ExploreTableViewController.swift */; };
+		87FEC7021E74F30F00F41ACD /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FEC7011E74F30F00F41ACD /* DetailsViewController.swift */; };
+		FE98FF2CEA76C2A4A8AB42E1 /* Pods_FitBook2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DB5E118468CAA87DD78DA6 /* Pods_FitBook2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1842D5DDF576B79999C99123 /* Pods-FitBook2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitBook2.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitBook2/Pods-FitBook2.release.xcconfig"; sourceTree = "<group>"; };
+		7804E82988C7EF75A54603A7 /* Pods-FitBook2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitBook2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitBook2/Pods-FitBook2.debug.xcconfig"; sourceTree = "<group>"; };
+		8704D8E01E6C7D0C0023615A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8704D8E21E6C7D210023615A /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		8704D8E41E6C85130023615A /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		871E68751E6EF20300B532F5 /* BigPictureTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigPictureTableViewCell.swift; sourceTree = "<group>"; };
+		8784FEF61E6D7CF30065D5C9 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		8784FEF81E6D9A570065D5C9 /* artworkCredit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = artworkCredit; sourceTree = "<group>"; };
+		8784FEFC1E6D9AA30065D5C9 /* suit (3).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "suit (3).png"; sourceTree = "<group>"; };
+		8784FEFF1E6D9B450065D5C9 /* hanger-line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hanger-line.png"; sourceTree = "<group>"; };
+		8784FF011E6D9B890065D5C9 /* photo-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-camera.png"; sourceTree = "<group>"; };
+		8784FF031E6D9DD90065D5C9 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		8784FF051E6D9E240065D5C9 /* search (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search (1).png"; sourceTree = "<group>"; };
+		8784FF071E6D9E510065D5C9 /* photo-camera (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-camera (1).png"; sourceTree = "<group>"; };
+		8784FF091E6DA6520065D5C9 /* Hashtag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hashtag.swift; sourceTree = "<group>"; };
+		8784FF0C1E6DF9FA0065D5C9 /* FetchedResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedResultsTableViewController.swift; sourceTree = "<group>"; };
+		8784FF0F1E6DFA390065D5C9 /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		8784FF111E6E0C310065D5C9 /* UITableViewDataSource+NSFetchedResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewDataSource+NSFetchedResultsController.swift"; sourceTree = "<group>"; };
+		8784FF131E6E0DCE0065D5C9 /* PictureTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureTableViewCell.swift; sourceTree = "<group>"; };
+		8784FF151E6E21CF0065D5C9 /* Grouping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grouping.swift; sourceTree = "<group>"; };
 		87ECE86C1E68530000C76BB8 /* FitBook2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitBook2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87ECE86F1E68530000C76BB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87ECE8711E68530000C76BB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +69,14 @@
 		87ECE8791E68530000C76BB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87ECE87C1E68530000C76BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87ECE87E1E68530000C76BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87ECE8841E685C7200C76BB8 /* FitBook2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FitBook2.entitlements; sourceTree = "<group>"; };
+		87ECE8851E685DA000C76BB8 /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		87ECE8871E68656400C76BB8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		87FEC6F91E748DCF00F41ACD /* SinglePictureTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SinglePictureTableViewCell.swift; sourceTree = "<group>"; };
+		87FEC6FC1E74A42600F41ACD /* UserPictureTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPictureTableViewController.swift; sourceTree = "<group>"; };
+		87FEC6FE1E74B06500F41ACD /* ExploreTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreTableViewController.swift; sourceTree = "<group>"; };
+		87FEC7011E74F30F00F41ACD /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		D0DB5E118468CAA87DD78DA6 /* Pods_FitBook2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitBook2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +84,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE98FF2CEA76C2A4A8AB42E1 /* Pods_FitBook2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		095EFB597572863DCF67141D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7804E82988C7EF75A54603A7 /* Pods-FitBook2.debug.xcconfig */,
+				1842D5DDF576B79999C99123 /* Pods-FitBook2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		330BB078E301DC695E6D31DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0DB5E118468CAA87DD78DA6 /* Pods_FitBook2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8784FEFE1E6D9B230065D5C9 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				8784FF071E6D9E510065D5C9 /* photo-camera (1).png */,
+				8784FF051E6D9E240065D5C9 /* search (1).png */,
+				8784FF031E6D9DD90065D5C9 /* search.png */,
+				8784FF011E6D9B890065D5C9 /* photo-camera.png */,
+				8784FEFC1E6D9AA30065D5C9 /* suit (3).png */,
+				8784FEFF1E6D9B450065D5C9 /* hanger-line.png */,
+				8784FEF81E6D9A570065D5C9 /* artworkCredit */,
+			);
+			name = Art;
+			sourceTree = "<group>";
+		};
+		8784FF171E6E21F40065D5C9 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				87ECE8761E68530000C76BB8 /* FitBook2.xcdatamodeld */,
+				8784FF151E6E21CF0065D5C9 /* Grouping.swift */,
+				8704D8E01E6C7D0C0023615A /* User.swift */,
+				8784FF091E6DA6520065D5C9 /* Hashtag.swift */,
+				8704D8E21E6C7D210023615A /* Post.swift */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		8784FF181E6E22210065D5C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87ECE8841E685C7200C76BB8 /* FitBook2.entitlements */,
+				87ECE86F1E68530000C76BB8 /* AppDelegate.swift */,
+				87ECE8791E68530000C76BB8 /* Assets.xcassets */,
+				87ECE87B1E68530000C76BB8 /* LaunchScreen.storyboard */,
+				87ECE87E1E68530000C76BB8 /* Info.plist */,
+				87ECE8871E68656400C76BB8 /* GoogleService-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		87ECE8631E68530000C76BB8 = {
 			isa = PBXGroup;
 			children = (
 				87ECE86E1E68530000C76BB8 /* FitBook2 */,
 				87ECE86D1E68530000C76BB8 /* Products */,
+				095EFB597572863DCF67141D /* Pods */,
+				330BB078E301DC695E6D31DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +168,41 @@
 		87ECE86E1E68530000C76BB8 /* FitBook2 */ = {
 			isa = PBXGroup;
 			children = (
-				87ECE86F1E68530000C76BB8 /* AppDelegate.swift */,
-				87ECE8711E68530000C76BB8 /* ViewController.swift */,
+				8784FEFE1E6D9B230065D5C9 /* Art */,
+				8784FF171E6E21F40065D5C9 /* CoreData */,
+				8784FF181E6E22210065D5C9 /* Supporting Files */,
 				87ECE8731E68530000C76BB8 /* Main.storyboard */,
-				87ECE8791E68530000C76BB8 /* Assets.xcassets */,
-				87ECE87B1E68530000C76BB8 /* LaunchScreen.storyboard */,
-				87ECE87E1E68530000C76BB8 /* Info.plist */,
-				87ECE8761E68530000C76BB8 /* FitBook2.xcdatamodeld */,
+				87FEC7001E74B06F00F41ACD /* TableViewControllers */,
+				87FEC6FB1E74920600F41ACD /* TableViewCells */,
+				87ECE8711E68530000C76BB8 /* ViewController.swift */,
+				87FEC7011E74F30F00F41ACD /* DetailsViewController.swift */,
+				8784FEF61E6D7CF30065D5C9 /* TabBarViewController.swift */,
+				8704D8E41E6C85130023615A /* ProfileViewController.swift */,
+				87ECE8851E685DA000C76BB8 /* UploadViewController.swift */,
 			);
 			path = FitBook2;
+			sourceTree = "<group>";
+		};
+		87FEC6FB1E74920600F41ACD /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				87FEC6F91E748DCF00F41ACD /* SinglePictureTableViewCell.swift */,
+				871E68751E6EF20300B532F5 /* BigPictureTableViewCell.swift */,
+				8784FF131E6E0DCE0065D5C9 /* PictureTableViewCell.swift */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		87FEC7001E74B06F00F41ACD /* TableViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				87FEC6FE1E74B06500F41ACD /* ExploreTableViewController.swift */,
+				8784FF0F1E6DFA390065D5C9 /* FeedTableViewController.swift */,
+				87FEC6FC1E74A42600F41ACD /* UserPictureTableViewController.swift */,
+				8784FF0C1E6DF9FA0065D5C9 /* FetchedResultsTableViewController.swift */,
+				8784FF111E6E0C310065D5C9 /* UITableViewDataSource+NSFetchedResultsController.swift */,
+			);
+			name = TableViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87ECE8811E68530000C76BB8 /* Build configuration list for PBXNativeTarget "FitBook2" */;
 			buildPhases = (
+				7AA8B984E685FC2311FA3E77 /* [CP] Check Pods Manifest.lock */,
 				87ECE8681E68530000C76BB8 /* Sources */,
 				87ECE8691E68530000C76BB8 /* Frameworks */,
 				87ECE86A1E68530000C76BB8 /* Resources */,
+				D2486ABC289F50FCAABF6ECA /* [CP] Embed Pods Frameworks */,
+				148257648A321A191CF93E38 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,7 +240,13 @@
 				TargetAttributes = {
 					87ECE86B1E68530000C76BB8 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2TF57A6Q8P;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -127,20 +274,92 @@
 			buildActionMask = 2147483647;
 			files = (
 				87ECE87D1E68530000C76BB8 /* LaunchScreen.storyboard in Resources */,
+				8784FF061E6D9E240065D5C9 /* search (1).png in Resources */,
+				8784FF041E6D9DDA0065D5C9 /* search.png in Resources */,
+				8784FF001E6D9B450065D5C9 /* hanger-line.png in Resources */,
+				87ECE8881E68656400C76BB8 /* GoogleService-Info.plist in Resources */,
+				8784FF021E6D9B890065D5C9 /* photo-camera.png in Resources */,
+				8784FEFD1E6D9AA30065D5C9 /* suit (3).png in Resources */,
 				87ECE87A1E68530000C76BB8 /* Assets.xcassets in Resources */,
 				87ECE8751E68530000C76BB8 /* Main.storyboard in Resources */,
+				8784FF081E6D9E510065D5C9 /* photo-camera (1).png in Resources */,
+				8784FEF91E6D9A570065D5C9 /* artworkCredit in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		148257648A321A191CF93E38 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitBook2/Pods-FitBook2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AA8B984E685FC2311FA3E77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2486ABC289F50FCAABF6ECA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitBook2/Pods-FitBook2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		87ECE8681E68530000C76BB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8784FF161E6E21CF0065D5C9 /* Grouping.swift in Sources */,
+				8784FEF71E6D7CF30065D5C9 /* TabBarViewController.swift in Sources */,
 				87ECE8781E68530000C76BB8 /* FitBook2.xcdatamodeld in Sources */,
+				8784FF101E6DFA390065D5C9 /* FeedTableViewController.swift in Sources */,
+				871E68761E6EF20300B532F5 /* BigPictureTableViewCell.swift in Sources */,
+				87ECE8861E685DA000C76BB8 /* UploadViewController.swift in Sources */,
 				87ECE8721E68530000C76BB8 /* ViewController.swift in Sources */,
+				8784FF0A1E6DA6520065D5C9 /* Hashtag.swift in Sources */,
+				87FEC6FA1E748DCF00F41ACD /* SinglePictureTableViewCell.swift in Sources */,
+				8784FF141E6E0DCE0065D5C9 /* PictureTableViewCell.swift in Sources */,
+				8784FF121E6E0C310065D5C9 /* UITableViewDataSource+NSFetchedResultsController.swift in Sources */,
+				8704D8E31E6C7D210023615A /* Post.swift in Sources */,
+				87FEC6FF1E74B06500F41ACD /* ExploreTableViewController.swift in Sources */,
+				87FEC7021E74F30F00F41ACD /* DetailsViewController.swift in Sources */,
+				8784FF0E1E6DF9FA0065D5C9 /* FetchedResultsTableViewController.swift in Sources */,
+				87FEC6FD1E74A42600F41ACD /* UserPictureTableViewController.swift in Sources */,
+				8704D8E51E6C85130023615A /* ProfileViewController.swift in Sources */,
+				8704D8E11E6C7D0C0023615A /* User.swift in Sources */,
 				87ECE8701E68530000C76BB8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +481,11 @@
 		};
 		87ECE8821E68530000C76BB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7804E82988C7EF75A54603A7 /* Pods-FitBook2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FitBook2/FitBook2.entitlements;
+				DEVELOPMENT_TEAM = 2TF57A6Q8P;
 				INFOPLIST_FILE = FitBook2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs193p.jlee29.FitBook2;
@@ -274,8 +496,11 @@
 		};
 		87ECE8831E68530000C76BB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1842D5DDF576B79999C99123 /* Pods-FitBook2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FitBook2/FitBook2.entitlements;
+				DEVELOPMENT_TEAM = 2TF57A6Q8P;
 				INFOPLIST_FILE = FitBook2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs193p.jlee29.FitBook2;
@@ -303,6 +528,7 @@
 				87ECE8831E68530000C76BB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

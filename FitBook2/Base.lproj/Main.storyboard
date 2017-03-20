@@ -993,7 +993,7 @@
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="cJQ-OC-YrE">
                                             <rect key="frame" x="8" y="8" width="359" height="462.5"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EmA-vK-1zb">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EmA-vK-1zb">
                                                     <rect key="frame" x="0.0" y="0.0" width="359" height="359"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="EmA-vK-1zb" secondAttribute="height" multiplier="1:1" id="cfT-dZ-48w"/>
@@ -1248,7 +1248,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="100" height="538"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="96T-S9-vDt">
+                            <scrollView verifyAmbiguity="off" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="96T-S9-vDt">
                                 <rect key="frame" x="0.0" y="0.0" width="100" height="538"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8Gy-m1-eWk">

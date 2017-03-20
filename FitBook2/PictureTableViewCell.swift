@@ -13,42 +13,20 @@ class PictureTableViewCell: UITableViewCell {
     @IBOutlet weak var leftPicture: UIImageView!
     @IBOutlet weak var rightPicture: UIImageView!
     
-    var leftPost: Post? {
-        didSet {
-            print("LEFT")
-        }
-    }
+    var leftPost: Post?
     
-    var rightPost: Post? {
-        didSet {
-            print("RIGHT")
-        }
-    }
+    var rightPost: Post?
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        leftPicture.layer.borderWidth = 2
-        leftPicture.layer.borderColor = UIColor.white.cgColor
-        rightPicture.layer.borderWidth = 2
-        rightPicture.layer.borderColor = UIColor.white.cgColor
-        
-//        let leftLikeRecognizer = UITapGestureRecognizer(target: leftPicture, action: #selector(likedLeft(byReactingTo:)))
-//        leftLikeRecognizer.numberOfTapsRequired = 2
-//        leftPicture.addGestureRecognizer(leftLikeRecognizer)
-//        
-//        let rightLikeRecognizer = UITapGestureRecognizer(target: rightPicture, action: #selector(likedRight(byReactingTo:)))
-//        rightLikeRecognizer.numberOfTapsRequired = 2
-//        rightPicture.addGestureRecognizer(rightLikeRecognizer)
-//        
-//        let leftTapRecognizer = UITapGestureRecognizer(target: leftPicture, action: #selector(tappedLeft(byReactingTo:)))
-//        leftTapRecognizer.numberOfTapsRequired = 1
-//        leftPicture.addGestureRecognizer(leftTapRecognizer)
-//        leftPicture.isUserInteractionEnabled = true
-//        
-//        let rightTapRecognizer = UITapGestureRecognizer(target: rightPicture, action: #selector(tappedRight(byReactingTo:)))
-//        rightTapRecognizer.numberOfTapsRequired = 1
-//        rightPicture.addGestureRecognizer(rightTapRecognizer)
-//        rightPicture.isUserInteractionEnabled = true
+//        if leftPost != nil {
+//            leftPicture.image = UIImage(data: (leftPost?.photo)! as Data, scale: 1.0)
+//        }
+//        if rightPost != nil {
+//            rightPicture.image = UIImage(data: (rightPost?.photo)! as Data, scale: 1.0)
+//        }
+        leftPicture.clipsToBounds = true
+        rightPicture.clipsToBounds = true
     }
     
     
@@ -63,15 +41,6 @@ class PictureTableViewCell: UITableViewCell {
             rightPost!.numLikes += 1
         }
     }
-    
-    func tappedLeft(byReactingTo tapRecognizer: UITapGestureRecognizer) {
-        print("TAPPED LEFT")
-    }
-    
-    func tappedRight(byReactingTo tapRecognizer: UITapGestureRecognizer) {
-        print("TAPPED RIGHT")
-    }
-
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)

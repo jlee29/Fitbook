@@ -11,7 +11,7 @@ import CoreData
 
 class User: NSManagedObject {
 //    
-    class func findOrCreateUser(matching userID: String, name realname: String, in context: NSManagedObjectContext) throws -> User {
+    class func findOrCreateUser(matching userID: String, name realname: String, email contactEmail: String, in context: NSManagedObjectContext) throws -> User {
         let request: NSFetchRequest<User> = User.fetchRequest()
         request.predicate = NSPredicate(format: "userID = %@", userID)
         
@@ -28,6 +28,7 @@ class User: NSManagedObject {
         let user = User(context: context)
         user.userID = userID
         user.realname = realname
+        user.contactInfo = contactEmail
         return user
     }
     

@@ -10,16 +10,32 @@ import UIKit
 
 class DetailsViewController: UIViewController {
     
+    @IBAction func pressedPrint(_ sender: UIButton) {
+        if image.image != nil {
+            let printController = UIPrintInteractionController.shared
+            
+            let printInfo = UIPrintInfo.printInfo()
+            printInfo.outputType = .general
+            printInfo.jobName = "Print Picture"
+            
+            printController.printInfo = printInfo
+            printController.printingItem = image.image!
+            printController.present(animated: true, completionHandler: nil)
+        }
+    }
+    
     var post: Post? {
         didSet {
-            tempUsername = post?.ownedBy?.username
-            tempImage =  UIImage(data: post?.photo as! Data)
-            tempLikes = "❤️: " + String(describing: post?.numLikes)
-            tempDesc = post?.caption
+            if post != nil {
+                tempUsername = post?.ownedBy?.username
+                tempImage =  UIImage(data: post?.photo as! Data)
+                let numLikes = post?.numLikes
+                tempLikes = "❤️: " + String(numLikes!)
+                tempDesc = post?.caption
+            }
         }
     }
 
-    @IBOutlet weak var username: UILabel!
     @IBOutlet weak var image: UIImageView!
     @IBOutlet weak var numLikes: UILabel!
     @IBOutlet weak var desc: UILabel!
@@ -31,7 +47,6 @@ class DetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        username.text = tempUsername
         image.image = tempImage
         numLikes.text = tempLikes
         desc.text = tempDesc
@@ -41,6 +56,20 @@ class DetailsViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationViewController = segue.destination
+        if segue.identifier == "showMap" {
+            if let mapViewController = destinationViewController as? MapViewController {
+                mapViewController.post = post
+            }
+        }
+        if segue.identifier == "showUser" {
+            if let userInfoViewController = destinationViewController as? UserInfoViewController {
+                userInfoViewController.user = post?.ownedBy
+            }
+        }
     }
     
 

@@ -11,6 +11,38 @@
 		8704D8E31E6C7D210023615A /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8704D8E21E6C7D210023615A /* Post.swift */; };
 		8704D8E51E6C85130023615A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8704D8E41E6C85130023615A /* ProfileViewController.swift */; };
 		871E68761E6EF20300B532F5 /* BigPictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E68751E6EF20300B532F5 /* BigPictureTableViewCell.swift */; };
+		874767671E7B1E17002EA554 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874767661E7B1E17002EA554 /* SearchViewController.swift */; };
+		874767691E7B2063002EA554 /* SearchFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874767681E7B2063002EA554 /* SearchFilterViewController.swift */; };
+		874767911E7C7FC2002EA554 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8747678F1E7C7FC2002EA554 /* GameScene.swift */; };
+		874767921E7C7FC2002EA554 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874767901E7C7FC2002EA554 /* GameViewController.swift */; };
+		874767951E7C8396002EA554 /* kanye.png in Resources */ = {isa = PBXBuildFile; fileRef = 874767941E7C8396002EA554 /* kanye.png */; };
+		8747679D1E7C910E002EA554 /* yeezy1.png in Resources */ = {isa = PBXBuildFile; fileRef = 874767981E7C910E002EA554 /* yeezy1.png */; };
+		8747679E1E7C910E002EA554 /* yeezy2.png in Resources */ = {isa = PBXBuildFile; fileRef = 874767991E7C910E002EA554 /* yeezy2.png */; };
+		8747679F1E7C910E002EA554 /* yeezy3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8747679A1E7C910E002EA554 /* yeezy3.png */; };
+		874767A01E7C910E002EA554 /* yeezy4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8747679B1E7C910E002EA554 /* yeezy4.png */; };
+		874767A11E7C910E002EA554 /* yeezy5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8747679C1E7C910E002EA554 /* yeezy5.png */; };
+		874767A31E7CCF56002EA554 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 874767A21E7CCF56002EA554 /* GameScene.sks */; };
+		874767A51E7CF0EC002EA554 /* yeezy6.png in Resources */ = {isa = PBXBuildFile; fileRef = 874767A41E7CF0EC002EA554 /* yeezy6.png */; };
+		874767A71E7CF7A3002EA554 /* quitButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 874767A61E7CF7A3002EA554 /* quitButton.png */; };
+		874767A91E7D0B10002EA554 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 874767A81E7D0B10002EA554 /* icon.png */; };
+		874767AB1E7D0B4D002EA554 /* printer.png in Resources */ = {isa = PBXBuildFile; fileRef = 874767AA1E7D0B4D002EA554 /* printer.png */; };
+		874767AE1E7D2116002EA554 /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 874767AC1E7D2116002EA554 /* gameover.mp3 */; };
+		874767AF1E7D2116002EA554 /* waves.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 874767AD1E7D2116002EA554 /* waves.mp3 */; };
+		874767B21E7DBC86002EA554 /* BrandCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874767B11E7DBC86002EA554 /* BrandCollectionViewController.swift */; };
+		874767B91E7DBE22002EA554 /* adidasLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 874767B41E7DBE22002EA554 /* adidasLogo.png */; };
+		874767BA1E7DBE22002EA554 /* nikeLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 874767B51E7DBE22002EA554 /* nikeLogo.png */; };
+		874767BB1E7DBE22002EA554 /* palaceLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 874767B61E7DBE22002EA554 /* palaceLogo.png */; };
+		874767BC1E7DBE22002EA554 /* supremeLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 874767B71E7DBE22002EA554 /* supremeLogo.png */; };
+		874767BD1E7DBE22002EA554 /* bapeLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 874767B81E7DBE22002EA554 /* bapeLogo.png */; };
+		874767BF1E7DBE87002EA554 /* BrandCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874767BE1E7DBE87002EA554 /* BrandCollectionViewCell.swift */; };
+		874767C11E7DDE73002EA554 /* HeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874767C01E7DDE73002EA554 /* HeartView.swift */; };
+		874767C31E7E0275002EA554 /* likeSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 874767C21E7E0275002EA554 /* likeSound.wav */; };
+		875965DC1E79BFDF00E268D5 /* SpecificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875965DB1E79BFDF00E268D5 /* SpecificationViewController.swift */; };
+		875965E21E79F7D900E268D5 /* ProfileSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875965E11E79F7D900E268D5 /* ProfileSettingsViewController.swift */; };
+		877DEF841E7E0C3E009105CA /* yeButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 877DEF831E7E0C3E009105CA /* yeButton.jpg */; };
+		877DEF861E7F3279009105CA /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877DEF851E7F3279009105CA /* UserInfoViewController.swift */; };
+		877DEF8A1E7F5A6F009105CA /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 877DEF881E7F5A6F009105CA /* share.png */; };
+		877DEF8B1E7F5A6F009105CA /* funnel.png in Resources */ = {isa = PBXBuildFile; fileRef = 877DEF891E7F5A6F009105CA /* funnel.png */; };
 		8784FEF71E6D7CF30065D5C9 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784FEF61E6D7CF30065D5C9 /* TabBarViewController.swift */; };
 		8784FEF91E6D9A570065D5C9 /* artworkCredit in Resources */ = {isa = PBXBuildFile; fileRef = 8784FEF81E6D9A570065D5C9 /* artworkCredit */; };
 		8784FEFD1E6D9AA30065D5C9 /* suit (3).png in Resources */ = {isa = PBXBuildFile; fileRef = 8784FEFC1E6D9AA30065D5C9 /* suit (3).png */; };
@@ -25,6 +57,13 @@
 		8784FF121E6E0C310065D5C9 /* UITableViewDataSource+NSFetchedResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784FF111E6E0C310065D5C9 /* UITableViewDataSource+NSFetchedResultsController.swift */; };
 		8784FF141E6E0DCE0065D5C9 /* PictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784FF131E6E0DCE0065D5C9 /* PictureTableViewCell.swift */; };
 		8784FF161E6E21CF0065D5C9 /* Grouping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784FF151E6E21CF0065D5C9 /* Grouping.swift */; };
+		87B3CC341E76D3A500BC7555 /* sneaker.png in Resources */ = {isa = PBXBuildFile; fileRef = 87B3CC331E76D3A500BC7555 /* sneaker.png */; };
+		87B3CC361E76D6AA00BC7555 /* sneaker2.png in Resources */ = {isa = PBXBuildFile; fileRef = 87B3CC351E76D6AA00BC7555 /* sneaker2.png */; };
+		87B3CC381E76DA9A00BC7555 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B3CC371E76DA9A00BC7555 /* NavigationViewController.swift */; };
+		87B3CC3A1E772A2900BC7555 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B3CC391E772A2800BC7555 /* MapViewController.swift */; };
+		87DC4A5D1E7767A200FB6CAB /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC4A5C1E7767A200FB6CAB /* NotificationsViewController.swift */; };
+		87DC4A5F1E77841D00FB6CAB /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC4A5E1E77841D00FB6CAB /* FilterViewController.swift */; };
+		87DC4A611E77D86000FB6CAB /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 87DC4A601E77D86000FB6CAB /* ding.wav */; };
 		87ECE8701E68530000C76BB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ECE86F1E68530000C76BB8 /* AppDelegate.swift */; };
 		87ECE8721E68530000C76BB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ECE8711E68530000C76BB8 /* ViewController.swift */; };
 		87ECE8751E68530000C76BB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87ECE8731E68530000C76BB8 /* Main.storyboard */; };
@@ -47,6 +86,38 @@
 		8704D8E21E6C7D210023615A /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		8704D8E41E6C85130023615A /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		871E68751E6EF20300B532F5 /* BigPictureTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigPictureTableViewCell.swift; sourceTree = "<group>"; };
+		874767661E7B1E17002EA554 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		874767681E7B2063002EA554 /* SearchFilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFilterViewController.swift; sourceTree = "<group>"; };
+		8747678F1E7C7FC2002EA554 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		874767901E7C7FC2002EA554 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		874767941E7C8396002EA554 /* kanye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kanye.png; sourceTree = "<group>"; };
+		874767981E7C910E002EA554 /* yeezy1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yeezy1.png; sourceTree = "<group>"; };
+		874767991E7C910E002EA554 /* yeezy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yeezy2.png; sourceTree = "<group>"; };
+		8747679A1E7C910E002EA554 /* yeezy3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yeezy3.png; sourceTree = "<group>"; };
+		8747679B1E7C910E002EA554 /* yeezy4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yeezy4.png; sourceTree = "<group>"; };
+		8747679C1E7C910E002EA554 /* yeezy5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yeezy5.png; sourceTree = "<group>"; };
+		874767A21E7CCF56002EA554 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		874767A41E7CF0EC002EA554 /* yeezy6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yeezy6.png; sourceTree = "<group>"; };
+		874767A61E7CF7A3002EA554 /* quitButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quitButton.png; sourceTree = "<group>"; };
+		874767A81E7D0B10002EA554 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		874767AA1E7D0B4D002EA554 /* printer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = printer.png; sourceTree = "<group>"; };
+		874767AC1E7D2116002EA554 /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
+		874767AD1E7D2116002EA554 /* waves.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = waves.mp3; sourceTree = "<group>"; };
+		874767B11E7DBC86002EA554 /* BrandCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandCollectionViewController.swift; sourceTree = "<group>"; };
+		874767B41E7DBE22002EA554 /* adidasLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adidasLogo.png; sourceTree = "<group>"; };
+		874767B51E7DBE22002EA554 /* nikeLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nikeLogo.png; sourceTree = "<group>"; };
+		874767B61E7DBE22002EA554 /* palaceLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = palaceLogo.png; sourceTree = "<group>"; };
+		874767B71E7DBE22002EA554 /* supremeLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = supremeLogo.png; sourceTree = "<group>"; };
+		874767B81E7DBE22002EA554 /* bapeLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bapeLogo.png; sourceTree = "<group>"; };
+		874767BE1E7DBE87002EA554 /* BrandCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandCollectionViewCell.swift; sourceTree = "<group>"; };
+		874767C01E7DDE73002EA554 /* HeartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeartView.swift; path = ../HeartView.swift; sourceTree = "<group>"; };
+		874767C21E7E0275002EA554 /* likeSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = likeSound.wav; sourceTree = "<group>"; };
+		875965DB1E79BFDF00E268D5 /* SpecificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificationViewController.swift; sourceTree = "<group>"; };
+		875965E11E79F7D900E268D5 /* ProfileSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSettingsViewController.swift; sourceTree = "<group>"; };
+		877DEF831E7E0C3E009105CA /* yeButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yeButton.jpg; sourceTree = "<group>"; };
+		877DEF851E7F3279009105CA /* UserInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		877DEF881E7F5A6F009105CA /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		877DEF891E7F5A6F009105CA /* funnel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = funnel.png; sourceTree = "<group>"; };
 		8784FEF61E6D7CF30065D5C9 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		8784FEF81E6D9A570065D5C9 /* artworkCredit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = artworkCredit; sourceTree = "<group>"; };
 		8784FEFC1E6D9AA30065D5C9 /* suit (3).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "suit (3).png"; sourceTree = "<group>"; };
@@ -61,6 +132,13 @@
 		8784FF111E6E0C310065D5C9 /* UITableViewDataSource+NSFetchedResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewDataSource+NSFetchedResultsController.swift"; sourceTree = "<group>"; };
 		8784FF131E6E0DCE0065D5C9 /* PictureTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureTableViewCell.swift; sourceTree = "<group>"; };
 		8784FF151E6E21CF0065D5C9 /* Grouping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grouping.swift; sourceTree = "<group>"; };
+		87B3CC331E76D3A500BC7555 /* sneaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sneaker.png; sourceTree = "<group>"; };
+		87B3CC351E76D6AA00BC7555 /* sneaker2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sneaker2.png; sourceTree = "<group>"; };
+		87B3CC371E76DA9A00BC7555 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		87B3CC391E772A2800BC7555 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		87DC4A5C1E7767A200FB6CAB /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		87DC4A5E1E77841D00FB6CAB /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		87DC4A601E77D86000FB6CAB /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		87ECE86C1E68530000C76BB8 /* FitBook2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitBook2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87ECE86F1E68530000C76BB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87ECE8711E68530000C76BB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,15 +186,113 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8747678E1E7C6CA5002EA554 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				874767661E7B1E17002EA554 /* SearchViewController.swift */,
+				874767681E7B2063002EA554 /* SearchFilterViewController.swift */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		874767931E7C7FC8002EA554 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				8747678F1E7C7FC2002EA554 /* GameScene.swift */,
+				874767A21E7CCF56002EA554 /* GameScene.sks */,
+				874767901E7C7FC2002EA554 /* GameViewController.swift */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		874767B01E7D211B002EA554 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				87DC4A601E77D86000FB6CAB /* ding.wav */,
+				874767AC1E7D2116002EA554 /* gameover.mp3 */,
+				874767AD1E7D2116002EA554 /* waves.mp3 */,
+				874767C21E7E0275002EA554 /* likeSound.wav */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		874767B31E7DBC94002EA554 /* CollectionViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				874767B11E7DBC86002EA554 /* BrandCollectionViewController.swift */,
+				874767BE1E7DBE87002EA554 /* BrandCollectionViewCell.swift */,
+			);
+			name = CollectionViewControllers;
+			sourceTree = "<group>";
+		};
+		875965DF1E79F78E00E268D5 /* Upload */ = {
+			isa = PBXGroup;
+			children = (
+				87DC4A5E1E77841D00FB6CAB /* FilterViewController.swift */,
+				87B3CC391E772A2800BC7555 /* MapViewController.swift */,
+				875965DB1E79BFDF00E268D5 /* SpecificationViewController.swift */,
+				87ECE8851E685DA000C76BB8 /* UploadViewController.swift */,
+			);
+			name = Upload;
+			sourceTree = "<group>";
+		};
+		875965E01E79F7A300E268D5 /* Misc. */ = {
+			isa = PBXGroup;
+			children = (
+				87ECE8711E68530000C76BB8 /* ViewController.swift */,
+				87B3CC371E76DA9A00BC7555 /* NavigationViewController.swift */,
+				8784FEF61E6D7CF30065D5C9 /* TabBarViewController.swift */,
+			);
+			name = Misc.;
+			sourceTree = "<group>";
+		};
+		875965E31E79F7E100E268D5 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8704D8E41E6C85130023615A /* ProfileViewController.swift */,
+				875965E11E79F7D900E268D5 /* ProfileSettingsViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		877DEF871E7F3290009105CA /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				87FEC7011E74F30F00F41ACD /* DetailsViewController.swift */,
+				877DEF851E7F3279009105CA /* UserInfoViewController.swift */,
+			);
+			name = Details;
+			sourceTree = "<group>";
+		};
 		8784FEFE1E6D9B230065D5C9 /* Art */ = {
 			isa = PBXGroup;
 			children = (
+				87B3CC331E76D3A500BC7555 /* sneaker.png */,
 				8784FF071E6D9E510065D5C9 /* photo-camera (1).png */,
 				8784FF051E6D9E240065D5C9 /* search (1).png */,
+				87B3CC351E76D6AA00BC7555 /* sneaker2.png */,
 				8784FF031E6D9DD90065D5C9 /* search.png */,
+				874767941E7C8396002EA554 /* kanye.png */,
 				8784FF011E6D9B890065D5C9 /* photo-camera.png */,
 				8784FEFC1E6D9AA30065D5C9 /* suit (3).png */,
 				8784FEFF1E6D9B450065D5C9 /* hanger-line.png */,
+				874767981E7C910E002EA554 /* yeezy1.png */,
+				874767991E7C910E002EA554 /* yeezy2.png */,
+				8747679A1E7C910E002EA554 /* yeezy3.png */,
+				8747679B1E7C910E002EA554 /* yeezy4.png */,
+				8747679C1E7C910E002EA554 /* yeezy5.png */,
+				874767A41E7CF0EC002EA554 /* yeezy6.png */,
+				874767A61E7CF7A3002EA554 /* quitButton.png */,
+				874767A81E7D0B10002EA554 /* icon.png */,
+				874767AA1E7D0B4D002EA554 /* printer.png */,
+				874767B41E7DBE22002EA554 /* adidasLogo.png */,
+				874767B51E7DBE22002EA554 /* nikeLogo.png */,
+				874767B61E7DBE22002EA554 /* palaceLogo.png */,
+				874767B71E7DBE22002EA554 /* supremeLogo.png */,
+				874767B81E7DBE22002EA554 /* bapeLogo.png */,
+				877DEF831E7E0C3E009105CA /* yeButton.jpg */,
+				877DEF881E7F5A6F009105CA /* share.png */,
+				877DEF891E7F5A6F009105CA /* funnel.png */,
 				8784FEF81E6D9A570065D5C9 /* artworkCredit */,
 			);
 			name = Art;
@@ -168,17 +344,22 @@
 		87ECE86E1E68530000C76BB8 /* FitBook2 */ = {
 			isa = PBXGroup;
 			children = (
+				874767C01E7DDE73002EA554 /* HeartView.swift */,
+				874767B01E7D211B002EA554 /* Music */,
 				8784FEFE1E6D9B230065D5C9 /* Art */,
 				8784FF171E6E21F40065D5C9 /* CoreData */,
 				8784FF181E6E22210065D5C9 /* Supporting Files */,
 				87ECE8731E68530000C76BB8 /* Main.storyboard */,
+				874767B31E7DBC94002EA554 /* CollectionViewControllers */,
 				87FEC7001E74B06F00F41ACD /* TableViewControllers */,
 				87FEC6FB1E74920600F41ACD /* TableViewCells */,
-				87ECE8711E68530000C76BB8 /* ViewController.swift */,
-				87FEC7011E74F30F00F41ACD /* DetailsViewController.swift */,
-				8784FEF61E6D7CF30065D5C9 /* TabBarViewController.swift */,
-				8704D8E41E6C85130023615A /* ProfileViewController.swift */,
-				87ECE8851E685DA000C76BB8 /* UploadViewController.swift */,
+				875965E01E79F7A300E268D5 /* Misc. */,
+				875965DF1E79F78E00E268D5 /* Upload */,
+				877DEF871E7F3290009105CA /* Details */,
+				87DC4A5C1E7767A200FB6CAB /* NotificationsViewController.swift */,
+				874767931E7C7FC8002EA554 /* Game */,
+				8747678E1E7C6CA5002EA554 /* Search */,
+				875965E31E79F7E100E268D5 /* Profile */,
 			);
 			path = FitBook2;
 			sourceTree = "<group>";
@@ -274,16 +455,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				87ECE87D1E68530000C76BB8 /* LaunchScreen.storyboard in Resources */,
+				877DEF841E7E0C3E009105CA /* yeButton.jpg in Resources */,
 				8784FF061E6D9E240065D5C9 /* search (1).png in Resources */,
+				87B3CC361E76D6AA00BC7555 /* sneaker2.png in Resources */,
+				874767C31E7E0275002EA554 /* likeSound.wav in Resources */,
+				874767A11E7C910E002EA554 /* yeezy5.png in Resources */,
+				874767A31E7CCF56002EA554 /* GameScene.sks in Resources */,
+				874767BC1E7DBE22002EA554 /* supremeLogo.png in Resources */,
+				874767A01E7C910E002EA554 /* yeezy4.png in Resources */,
+				8747679E1E7C910E002EA554 /* yeezy2.png in Resources */,
 				8784FF041E6D9DDA0065D5C9 /* search.png in Resources */,
 				8784FF001E6D9B450065D5C9 /* hanger-line.png in Resources */,
 				87ECE8881E68656400C76BB8 /* GoogleService-Info.plist in Resources */,
+				874767AF1E7D2116002EA554 /* waves.mp3 in Resources */,
+				874767B91E7DBE22002EA554 /* adidasLogo.png in Resources */,
 				8784FF021E6D9B890065D5C9 /* photo-camera.png in Resources */,
 				8784FEFD1E6D9AA30065D5C9 /* suit (3).png in Resources */,
+				877DEF8B1E7F5A6F009105CA /* funnel.png in Resources */,
+				877DEF8A1E7F5A6F009105CA /* share.png in Resources */,
+				87DC4A611E77D86000FB6CAB /* ding.wav in Resources */,
+				8747679D1E7C910E002EA554 /* yeezy1.png in Resources */,
+				8747679F1E7C910E002EA554 /* yeezy3.png in Resources */,
+				874767A51E7CF0EC002EA554 /* yeezy6.png in Resources */,
 				87ECE87A1E68530000C76BB8 /* Assets.xcassets in Resources */,
 				87ECE8751E68530000C76BB8 /* Main.storyboard in Resources */,
+				874767BD1E7DBE22002EA554 /* bapeLogo.png in Resources */,
+				874767BB1E7DBE22002EA554 /* palaceLogo.png in Resources */,
 				8784FF081E6D9E510065D5C9 /* photo-camera (1).png in Resources */,
+				874767A71E7CF7A3002EA554 /* quitButton.png in Resources */,
+				874767AE1E7D2116002EA554 /* gameover.mp3 in Resources */,
+				874767AB1E7D0B4D002EA554 /* printer.png in Resources */,
+				874767A91E7D0B10002EA554 /* icon.png in Resources */,
 				8784FEF91E6D9A570065D5C9 /* artworkCredit in Resources */,
+				874767951E7C8396002EA554 /* kanye.png in Resources */,
+				87B3CC341E76D3A500BC7555 /* sneaker.png in Resources */,
+				874767BA1E7DBE22002EA554 /* nikeLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,21 +550,35 @@
 			files = (
 				8784FF161E6E21CF0065D5C9 /* Grouping.swift in Sources */,
 				8784FEF71E6D7CF30065D5C9 /* TabBarViewController.swift in Sources */,
+				874767911E7C7FC2002EA554 /* GameScene.swift in Sources */,
+				874767671E7B1E17002EA554 /* SearchViewController.swift in Sources */,
+				874767691E7B2063002EA554 /* SearchFilterViewController.swift in Sources */,
+				874767BF1E7DBE87002EA554 /* BrandCollectionViewCell.swift in Sources */,
 				87ECE8781E68530000C76BB8 /* FitBook2.xcdatamodeld in Sources */,
 				8784FF101E6DFA390065D5C9 /* FeedTableViewController.swift in Sources */,
 				871E68761E6EF20300B532F5 /* BigPictureTableViewCell.swift in Sources */,
+				874767B21E7DBC86002EA554 /* BrandCollectionViewController.swift in Sources */,
 				87ECE8861E685DA000C76BB8 /* UploadViewController.swift in Sources */,
+				874767921E7C7FC2002EA554 /* GameViewController.swift in Sources */,
+				874767C11E7DDE73002EA554 /* HeartView.swift in Sources */,
 				87ECE8721E68530000C76BB8 /* ViewController.swift in Sources */,
+				87DC4A5F1E77841D00FB6CAB /* FilterViewController.swift in Sources */,
 				8784FF0A1E6DA6520065D5C9 /* Hashtag.swift in Sources */,
+				877DEF861E7F3279009105CA /* UserInfoViewController.swift in Sources */,
+				87B3CC381E76DA9A00BC7555 /* NavigationViewController.swift in Sources */,
 				87FEC6FA1E748DCF00F41ACD /* SinglePictureTableViewCell.swift in Sources */,
 				8784FF141E6E0DCE0065D5C9 /* PictureTableViewCell.swift in Sources */,
+				875965DC1E79BFDF00E268D5 /* SpecificationViewController.swift in Sources */,
 				8784FF121E6E0C310065D5C9 /* UITableViewDataSource+NSFetchedResultsController.swift in Sources */,
 				8704D8E31E6C7D210023615A /* Post.swift in Sources */,
+				87B3CC3A1E772A2900BC7555 /* MapViewController.swift in Sources */,
+				875965E21E79F7D900E268D5 /* ProfileSettingsViewController.swift in Sources */,
 				87FEC6FF1E74B06500F41ACD /* ExploreTableViewController.swift in Sources */,
 				87FEC7021E74F30F00F41ACD /* DetailsViewController.swift in Sources */,
 				8784FF0E1E6DF9FA0065D5C9 /* FetchedResultsTableViewController.swift in Sources */,
 				87FEC6FD1E74A42600F41ACD /* UserPictureTableViewController.swift in Sources */,
 				8704D8E51E6C85130023615A /* ProfileViewController.swift in Sources */,
+				87DC4A5D1E7767A200FB6CAB /* NotificationsViewController.swift in Sources */,
 				8704D8E11E6C7D0C0023615A /* User.swift in Sources */,
 				87ECE8701E68530000C76BB8 /* AppDelegate.swift in Sources */,
 			);

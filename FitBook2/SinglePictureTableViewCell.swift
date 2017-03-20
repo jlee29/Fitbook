@@ -10,7 +10,12 @@ import UIKit
 
 class SinglePictureTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var desc: UILabel!
     @IBOutlet weak var picture: UIImageView!
+    
+    @IBOutlet weak var userAndLikes: UILabel!
+    
+    var post: Post?
     
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -12,8 +12,15 @@
     </entity>
     <entity name="Post" representedClassName=".Post" syncable="YES" codeGenerationType="category">
         <attribute name="caption" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="numLikes" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="photo" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="postedDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="productSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wantToSellOrBuy" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="containedBy" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Grouping" inverseName="leftPost" inverseEntity="Grouping" syncable="YES"/>
         <relationship name="includes" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Hashtag" inverseName="describing" inverseEntity="Hashtag" syncable="YES"/>
         <relationship name="likedBy" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="User" inverseName="likes" inverseEntity="User" syncable="YES"/>
@@ -21,6 +28,7 @@
         <relationship name="ownedBy" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="owns" inverseEntity="User" syncable="YES"/>
     </entity>
     <entity name="User" representedClassName=".User" syncable="YES" codeGenerationType="category">
+        <attribute name="contactInfo" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="realname" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="userID" optional="YES" attributeType="String" syncable="YES"/>
@@ -33,7 +41,7 @@
     <elements>
         <element name="Grouping" positionX="-47" positionY="-67" width="128" height="103"/>
         <element name="Hashtag" positionX="133" positionY="89" width="128" height="73"/>
-        <element name="Post" positionX="-63" positionY="110" width="128" height="163"/>
-        <element name="User" positionX="-272" positionY="-63" width="128" height="163"/>
+        <element name="Post" positionX="-63" positionY="110" width="128" height="270"/>
+        <element name="User" positionX="-272" positionY="-63" width="128" height="178"/>
     </elements>
 </model>

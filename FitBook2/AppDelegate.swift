@@ -9,15 +9,24 @@
 import UIKit
 import CoreData
 import FBSDKCoreKit
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    let notifDelegate = NotificationsViewController()
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+        //let center =
+        let notifCenter = UNUserNotificationCenter.current()
+        let options: UNAuthorizationOptions = [.alert, .sound]
+        notifCenter.requestAuthorization(options: options, completionHandler: { (granted, error) in
+            if !(granted) {
+                print("Permission Denied.")
+            }
+        })
+        notifCenter.delegate = notifDelegate
         return true
     }
     

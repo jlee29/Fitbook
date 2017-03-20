@@ -12,7 +12,7 @@ import CoreData
 class Grouping: NSManagedObject {
     class func findAvailableGroupingOrCreateGrouping(in context: NSManagedObjectContext) throws -> Grouping {
         let request: NSFetchRequest<Grouping> = Grouping.fetchRequest()
-        request.predicate = NSPredicate(format: "numPics = %@ and type = %@", "1", "small")
+        request.predicate = NSPredicate(format: "numPics = 1 and type = %@", "small")
         
         do {
             let matches = try context.fetch(request)
@@ -25,6 +25,7 @@ class Grouping: NSManagedObject {
         }
         let grouping = Grouping(context: context)
         grouping.type = "small"
+        grouping.numPics = 0
         return grouping
     }
     

@@ -14,7 +14,7 @@ class Post: NSManagedObject {
         let post = Post(context: context)
         post.ownedBy = try? User.findUser(matching: userID, in: context)!
         post.caption = desc
-        post.numLikes = 2
+        post.numLikes = 0
         return post
     }
     

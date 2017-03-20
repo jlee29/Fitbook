@@ -1,0 +1,87 @@
+user:jlee29 (Lee, Jiwoo)
+
+FitBook:
+————————————
+FitBook is an amalgam of ideas I had, a mixture between a clothing-inspiration sharing application, a rough buy-sell platform, and a playground for a bunch of other ideas.
+
+The application starts with a Facebook authentication, in which users will register. The credentials that are allowed right now is bobmcmeans6@gmail.com, password is cs193p.
+
+The app then launches into 4 tabs. The first tab allows you to look for items that are wanted for sale or wanted to buy, or just browse through pictures. The third tab allows you to upload an item (whether for sale or not). The fourth tab allows you to set a reminder for hot releases by different brands. The last tab is your profile, and in the settings you can change your picture, logout, and finally reveal an easter egg which is a game (scroll to bottom of settings).
+
+There are some functionalities of the app that I wanted to incorporate but couldn’t so there is some code irrelevant to the current functionality of the app. Sorry I couldn’t get rid of everything yet.
+
+Self grading:
+—————————————
+1. Breadth (1 to 2 points per substantive iOS API)   	20
+	1 - Facebook integration
+	1 - Datepicker 
+	1 - Tableview 
+	1 - Core Data  
+	1 - Label/Button/Switch - 1
+	1 - Camera/Photo/UIImagePicker
+	1 - UIGesture Recognizers
+	1 - Mapkit/Map Annotation
+	1 - Core Motion
+	1 - UIBezierPath (clicking picture “likes” and shows a heart)
+	1 - Different Segues
+	1 - Popover Segue
+	1 - Airprint
+	1 - AutoLayout
+	1 - CollectionView
+	1 - AVAudioPlayer
+	2 - Delegates (pretty extensive use all over, 
+		for sending information forward and 
+		backwards in different contexts)
+	1 - UIAlertSheet
+	1 - Activity Sheet
+	1 - ScrollView
+	
+2. Miscellaneous API (up to 4 points) 			4
+	1 - Tab Bar/Navigation Bar	
+	1 - UISearchBar
+	1 - Segmented Control
+	1 - TextView (implemented “placeholder” text)
+
+3. Not-Covered-In-Lecture (up to 4 points) 		9
+	1 - Push Notifications
+	2 - Core image (integration with slider allows 
+		different levels of intensity, can also
+		stack filters on top of one another)
+	1 - Animation
+	1 - Sprite Kit
+
+4. Depth (up to 4 points) 				4
+	1 - Core Image					
+	1 - AVAudioPlayer
+	1 - Popover (used popovers/delegates to pass 
+		information back and forth)
+	1 - Core Data (querying for multiple predicates)			
+
+5. Creativity (up to 3 points) 				2
+	
+	
+6. UI Design (up to 3 points) 				3
+	3
+
+7. Coding Style (up to 3 points) 			2
+	2
+
+8. Stability and Usability (up to 2 points)		2
+	2
+ 9. Free Points						4
+	1 - rubric
+	1 - turning in slides
+	2 - presentation
+
+Total:							50
+
+Citations:
+——————————
+http://stackoverflow.com/questions/26225236/swift-spritekit-adding-button-programaticly
+http://stackoverflow.com/questions/37875973/how-to-write-keyboard-notifications-in-swift-3
+http://stackoverflow.com/questions/5370428/uiscrollview-disable-scrolling-in-just-one-direction
+http://stackoverflow.com/questions/28661963/cllocationmanager-requestwheninuseauthorization-not-working
+http://stackoverflow.com/questions/24635744/how-to-present-popover-properly-in-ios-8
+https://www.ioscreator.com/tutorials/airprint-tutorial-ios8-swift
+http://www.codingexplorer.com/sharing-swift-app-uiactivityviewcontroller/
+https://developers.facebook.com/docs/graph-api

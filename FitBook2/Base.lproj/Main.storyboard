@@ -1248,7 +1248,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="100" height="538"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="96T-S9-vDt">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="96T-S9-vDt">
                                 <rect key="frame" x="0.0" y="0.0" width="100" height="538"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8Gy-m1-eWk">
@@ -1271,20 +1271,10 @@
                                             <constraint firstAttribute="width" secondItem="5yg-Ue-qlq" secondAttribute="height" multiplier="1:1" id="uYD-kB-jpL"/>
                                         </constraints>
                                     </stackView>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Ow-A3-Txw">
-                                        <rect key="frame" x="0.0" y="0.0" width="100" height="538"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="7Ow-A3-Txw" firstAttribute="leading" secondItem="96T-S9-vDt" secondAttribute="leading" id="EHP-7o-84k"/>
-                                    <constraint firstAttribute="trailing" secondItem="7Ow-A3-Txw" secondAttribute="trailing" id="ESC-0f-GyU"/>
-                                    <constraint firstItem="7Ow-A3-Txw" firstAttribute="centerY" secondItem="96T-S9-vDt" secondAttribute="centerY" id="EVh-xB-f0i"/>
                                     <constraint firstItem="8Gy-m1-eWk" firstAttribute="top" secondItem="96T-S9-vDt" secondAttribute="top" constant="20" symbolic="YES" id="aaV-en-aAK"/>
                                     <constraint firstItem="8Gy-m1-eWk" firstAttribute="centerX" secondItem="96T-S9-vDt" secondAttribute="centerX" id="cdP-Gh-1ic"/>
-                                    <constraint firstAttribute="bottom" secondItem="7Ow-A3-Txw" secondAttribute="bottom" id="d3c-Fi-rqS"/>
-                                    <constraint firstItem="7Ow-A3-Txw" firstAttribute="centerX" secondItem="96T-S9-vDt" secondAttribute="centerX" id="nNc-yh-SZn"/>
-                                    <constraint firstItem="7Ow-A3-Txw" firstAttribute="top" secondItem="96T-S9-vDt" secondAttribute="top" id="wjh-10-Id2"/>
                                 </constraints>
                             </scrollView>
                         </subviews>

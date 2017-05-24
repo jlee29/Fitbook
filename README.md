@@ -11,7 +11,7 @@ The third tab allows you to set a reminder for hot releases by different brands.
 The last tab is your profile and you can customize your bio by pressing on the label. The picture/name is pulled from facebook. The posts are all the posts you’ve made. In the settings you can logout reveal an easter egg which is a game (scroll to the bottom of settings way way down). 
 If you hit the Ye button then you enter a game where you are kanye trying to collect shoes. There are some fake shoes however and if you hit those, you lose. You can restart the game or share your score whenever you die!
 
-There are some functionalities of the app that I wanted to incorporate but couldn’t so there is some code irrelevant to the current functionality of the app. Sorry I couldn’t get rid of everything yet.
+There are some functionalities of the app that I wanted to incorporate but couldn’t so there is some code irrelevant to the current functionality of the app.
 
 Citations:
 ——————————

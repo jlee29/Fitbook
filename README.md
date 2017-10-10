@@ -1,5 +1,7 @@
 FitBook:
+
 ————————————
+
 FitBook is an amalgam of ideas I had, a mixture between a clothing-inspiration sharing application, a rough buy-sell platform, and a playground for a bunch of other ideas.
 
 The application starts with a Facebook authentication, in which users will register. The credentials that are allowed right now is bobmcmeans6@gmail.com, password is cs193p.
@@ -14,7 +16,9 @@ If you hit the Ye button then you enter a game where you are kanye trying to col
 There are some functionalities of the app that I wanted to incorporate but couldn’t so there is some code irrelevant to the current functionality of the app.
 
 Citations:
+
 ——————————
+
 http://stackoverflow.com/questions/26225236/swift-spritekit-adding-button-programaticly
 http://stackoverflow.com/questions/37875973/how-to-write-keyboard-notifications-in-swift-3
 http://stackoverflow.com/questions/5370428/uiscrollview-disable-scrolling-in-just-one-direction
